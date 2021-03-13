@@ -39,8 +39,19 @@
 
 // toFixed   убтрает цыфры после запятой и оставляет то колличество которое указано в ( )
 
-let salary = 30000.1254;
-salary = Number(salary.toFixed(5));
+// let salary = 30000.1254;
+// salary = Number(salary.toFixed(5));
 
 
-console.log(salary);
+// console.log(salary);
+
+let base = prompt(`Введи сюда число `);
+base = Number(base);
+console.log(base);
+
+let power = prompt(`Введи сюда степень`);
+power = Number(power);
+console.log(power);
+
+const result = base ** power;
+console.log(result);
