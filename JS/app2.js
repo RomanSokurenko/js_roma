@@ -68,7 +68,46 @@
 // console.log(message);
 
 
-// Цыкл for----------------------------------------------------------------------------
-for (let i = 0; i <= 50; i += 1){
-    console.log(i);
-}
+// Цикл for----------------------------------------------------------------------------
+// for (let i = 0; i <= 5; i += 1){
+//     console.log(i);
+// }
+
+// let balanse = 10000;
+// const payment = 2000;
+
+// console.log(`Общая сумма заказа стостовляет ${payment} грн.Проверяем количество доступных средств на счету`)
+
+// if (payment <= balanse) {
+//     console.log('OK');
+//     balanse -= payment;
+//     console.log(`На счету осталось ${balanse} грн.`)
+// }
+// else { console.log('На счету не хватает денежных средств') }
+
+// console.log('Операция завершена.Спасибо!');
+
+// let totalSpent =2000;
+// let payment = 500;
+//  let discount = 0;
+
+// if (totalSpent >= 100 && totalSpent < 1000) {
+//     console.log(`Вы получаете скидку в размере 2 %`);
+//     discount = 0.02;
+// }
+// else if (totalSpent >= 1000 && totalSpent < 5000) {
+//     console.log('Вы получаете скидку 5%');
+//     discount = 0.05;
+// }
+// else if ( totalSpent > 5000) {
+//     console.log('Золотой партнер, Вы получаете скидку в 10%')
+//     discount = 0.1;
+// }
+// else {console.log('Скидка 0 %')}
+// payment -= payment * discount;
+    
+
+// console.log(`Оформлен заказ на сумму ${payment} и получаете скидку в размере ${discount * 100} %`)
+
+// totalSpent += payment;
+// console.log(`Общая сумма потраченного в магазине  состовляет ${totalSpent}`);
