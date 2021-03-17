@@ -28,5 +28,15 @@
 // console.log(b);
 
 // ПЕРЕБОР МАСИВА---------------------------------------------
-const letters = ['a', 's', 'd', 'g'];
-console.log(letters);
+// const cards = [2, 32, 56, 43, 12, 43,100];
+// let total = 0;
+// for (let i = 0; i < cards.length; i += 1){
+//     console.log(cards[i]);
+//     total += cards[i];
+// }
+// for ( const cart of cards) {
+//     total += cart;
+// }
+
+
+// console.log('total', total);
