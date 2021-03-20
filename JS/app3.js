@@ -40,3 +40,11 @@
 
 
 // console.log('total', total);
+// Обьекты---------------------------------------------------
+const room = {
+    1: 111,
+    2: 222,
+    3:333,
+}
+console.log(room);
+console.log(room 1 ;
