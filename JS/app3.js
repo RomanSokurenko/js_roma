@@ -41,19 +41,30 @@
 
 // console.log('total', total);
 // Обьекты---------------------------------------------------
-// const feedback = {
-//     good: 5,
-//     neutral: 10,
-//     bad: 3,
-// }
+const feedback = {
+    name:'Отзывы о компании',
+    good: 5,
+    neutral: 10,
+    bad: 3,
+    tracks:['Трек №1','Трек №2','Трек №3'],
+    n
+
+}
 // let totalFeedback = 0;
-// // const keys = Object.keys(feedbeck);
 
-// // console.log(keys);
+// feedback.qwe = 15;
+// const keys = Object.keys(feedback);
 
-// // for (const key of keys) {
-// //     console.log(key);
-// // }
+// console.log(keys);
+
+// for (const key of keys) {
+//     console.log(key);
+//  }
+// const newName = 'neutral';
+// console.log(feedback[newName]);
+// console.log(feedback.good);
+// console.log(feedback.bad);
+
 // const values = Object.values(feedback);
 // console.log(values);
 
@@ -64,3 +75,19 @@
 // }
 
 // console.log('totalFeedback', totalFeedback);
+
+// const fn = function () {
+//     console.log('HELLO!!!');
+// }
+// console.log(fn);
+
+// console.log(feedback);
+// feedback.chageName('ОТЗЫВЫ');
+// // console.log(feedback);
+// feedback.neutral = 15555;
+// // console.log(feedback);
+// feedback.addTrack ('Трек № 356345');
+// // console.log(feedback);
+// console.log(feedback);
+
+
