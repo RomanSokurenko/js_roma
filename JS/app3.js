@@ -41,10 +41,26 @@
 
 // console.log('total', total);
 // Обьекты---------------------------------------------------
-const room = {
-    1: 111,
-    2: 222,
-    3:333,
-}
-console.log(room);
-console.log(room 1 ;
+// const feedback = {
+//     good: 5,
+//     neutral: 10,
+//     bad: 3,
+// }
+// let totalFeedback = 0;
+// // const keys = Object.keys(feedbeck);
+
+// // console.log(keys);
+
+// // for (const key of keys) {
+// //     console.log(key);
+// // }
+// const values = Object.values(feedback);
+// console.log(values);
+
+// for (const value of values) {
+//     console.log(value);
+
+//     totalFeedback += value;
+// }
+
+// console.log('totalFeedback', totalFeedback);
