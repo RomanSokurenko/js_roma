@@ -41,15 +41,15 @@
 
 // console.log('total', total);
 // Обьекты---------------------------------------------------
-const feedback = {
-    name:'Отзывы о компании',
-    good: 5,
-    neutral: 10,
-    bad: 3,
-    tracks:['Трек №1','Трек №2','Трек №3'],
-    n
+// const feedback = {
+//     name:'Отзывы о компании',
+//     good: 5,
+//     neutral: 10,
+//     bad: 3,
+//     tracks:['Трек №1','Трек №2','Трек №3'],
+    
 
-}
+// }
 // let totalFeedback = 0;
 
 // feedback.qwe = 15;
@@ -90,4 +90,177 @@ const feedback = {
 // // console.log(feedback);
 // console.log(feedback);
 
+// let name = 'Roman';
+// console.log(name);
+// // alert(name);
+// console.log('Мое имя', name);
 
+
+// const clients = ['Mango', 'Poly', 'Ajax'];
+
+// Указывая в скобках индекс элемента мы получаем его значение
+// console.log(clients[0]); // Mango
+// console.log(clients[1]); // Poly
+// console.log(clients[2]); // Ajax
+
+// clients[0] = 'Макарена';
+// console.log(clients);
+// console.log(clients[0]); // 'Макарена'
+// console.log(clients[1]); // Poly
+// console.log(clients[2]); // Ajax
+// for (let i = 0; i < clients.length; i += 1){
+//     console.log( clients[i]);
+
+// }
+
+// const numbers = [];
+
+// for (let i = 0; i <= 3; i += 1){
+//     numbers.push(`Число - ${i}`);
+// }
+// console.log('Добавили числа в масив', numbers);
+
+// Итерация по массиву
+// const clients = ['Mango', 'Ajax', 'Poly'];
+
+// for (const client of clients) {
+//   console.log(client);
+// }
+
+// const cars = ['audi', 'bmw', 'renault'];
+
+// for (const car of cars) {
+//     console.log(car);
+// }
+
+// const string = 'Гиперболоид';
+
+// for (const haracter of string) {
+//     console.log(haracter);
+// }
+
+
+// Инструкции break и continue Будем искать имя клиента в массиве имен, если нашли - прервем цикл, так как нет смысла искать дальше, имена у нас уникальные.
+
+// const cars = ['audi', 'bmw', 'renault'];
+// const carsNameToFind = 'renault'
+// let message;
+
+// for (let car of cars) {
+//     if (car === carsNameToFind) {
+//         message = 'Такая машина в базе данных присутствует!';
+//         break;
+//     }
+//     else {
+//         message = 'Извените но данной марки у нас нет!';
+//     }
+// }
+// console.log(message);
+// const cars = ['audi', 'bmw', 'renault'];
+// const carsNameToFind = 'renat'
+// let message = 'Извените но данной марки у нас нет!';
+
+// for (let car of cars) {
+//     if (car === carsNameToFind) {
+//         message = 'Такая машина в базе данных присутствует!';
+//         break;
+//     }
+// }
+// console.log(message);
+// *
+//  * Для чисел меньше чем порог срабатывает continue, выполнение тела прекращается
+//  * и управление передаётся на следующую итерацию.
+ 
+// const numbers = [1, 3, 14, 18, 4, 7, 29, 6, 34];
+// const threshold = 15;
+// for (let i = 0; i < numbers.length; i += 1){
+//     if (numbers[i] < threshold) {
+//         continue
+//     }
+//     console.log(`Число ${threshold} меньше числа ${numbers[i]}`);
+// }
+
+// const matrix = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
+// let total = 0;
+
+// for (let i = 0; i < matrix.length; i += 1) {
+// //   console.log('Подмассив матрицы matrix[i]: ', matrix[i]);
+
+//   for (let j = 0; j < matrix[i].length; j += 1) {
+//     // console.log('Элемент подмассива матрицы matrix[i][j]: ', matrix[i][j]);
+//     total += matrix[i][j];
+//   }
+// }
+
+// console.log(total); // 45
+
+// let a = 10;
+// let b = a;
+// console.log(a);
+// console.log(b);
+
+// a = 15;
+// console.log(a);
+// console.log(b);
+
+// const a = [10, 20,30];
+// const b = a;
+// console.log(a);
+// console.log(b);
+// a[0] = 125;
+// console.log(a);
+// console.log(b);
+// b[0] = 354;
+// console.log(a);
+// console.log(b);
+
+
+// split(s) — позволяет превратить строку в массив, разбив ее по разделителю s. Это не метод массива, но рассматриваем мы его сейчас, так как раньше мы о массивах не знали.
+
+// join(s) — делает в точности противоположное split. Он берет массив и склеивает его в строку, используя s как разделитель.
+// const message = 'Привет этот удивительный мир JS';
+
+// console.log(message.split(' '));
+
+// const cars = ['audi', 'bmw', 'renault'];
+// console.log(cars.join('__'));
+// console.log(cars.join('-'));
+// console.log(cars.join('='));
+// console.log(cars.join('+'));
+// console.log(cars.pop(0));
+// console.log(cars);
+
+// const clients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+// console.log(clients.slice());
+
+// const add = function (a,b,d) {
+//     return (a + b + d);
+
+// const count = function (countFrom = 0, countTo = 10, step = 1) {
+//   console.log(`countFrom = ${countFrom}, countTo = ${countTo}, step = ${step}`);
+
+//   for (let i = countFrom; i <= countTo; i += step) {
+//     console.log(i);
+//   }
+// };
+
+// count(1,2); // countFrom = 1, countTo = 5, step = 1
+// count(2); // countFrom = 2, countTo = 10, step = 1
+// count(undefined, 5, 2); // countFrom = 0, countTo = 5, step = 2
+// count(); // countFrom = 0, countTo = 10, step = 1
+
+const bookShelf = {
+  // Пиши код ниже этой строки
+  books: ['Последнее королевство', 'Страж снов'],
+  getBooks() {
+    return 'Возвращаем все книги';
+  },
+  addBook(bookName) {
+    return `Добавляем книгу ${bookName}`;
+  },
+  // Пиши код выше этой строки
+};
