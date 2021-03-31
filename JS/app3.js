@@ -47,7 +47,7 @@
 //     neutral: 10,
 //     bad: 3,
 //     tracks:['Трек №1','Трек №2','Трек №3'],
-    
+
 
 // }
 // let totalFeedback = 0;
@@ -170,7 +170,7 @@
 // *
 //  * Для чисел меньше чем порог срабатывает continue, выполнение тела прекращается
 //  * и управление передаётся на следующую итерацию.
- 
+
 // const numbers = [1, 3, 14, 18, 4, 7, 29, 6, 34];
 // const threshold = 15;
 // for (let i = 0; i < numbers.length; i += 1){
@@ -253,14 +253,94 @@
 // count(undefined, 5, 2); // countFrom = 0, countTo = 5, step = 2
 // count(); // countFrom = 0, countTo = 10, step = 1
 
-const bookShelf = {
-  // Пиши код ниже этой строки
-  books: ['Последнее королевство', 'Страж снов'],
-  getBooks() {
-    return 'Возвращаем все книги';
-  },
-  addBook(bookName) {
-    return `Добавляем книгу ${bookName}`;
-  },
-  // Пиши код выше этой строки
-};
+// const bookShelf = {
+//   // Пиши код ниже этой строки
+//   books: ['Последнее королевство', 'Страж снов'],
+//   getBooks() {
+//     return 'Возвращаем все книги';
+//   },
+//   addBook(bookName) {
+//     return `Добавляем книгу ${bookName}`;
+//   },
+// Пиши код выше этой строки
+// };
+
+// Функции----------------------------------------------
+// const greet = function greet(name,lastName,city) {
+//   console.log('Hello - ', name, lastName,city);
+// }
+// greet('Roman', 'Sokurenko', 'Krivbass');
+
+// const sum =(a=5, b=45) => a + b;
+
+// console.log(sum());
+
+// const fn = function (fn) {
+//   console.log()
+// }
+
+// const sum = function () {
+//   let total = 0;
+
+//   for (const argument of arguments) {
+//     total += argument;
+//   }
+
+//   return total;
+// };
+
+// console.log(sum(1, 2, 3,676)); //  6
+// // console.log(sum(1, 2, 3, 4)); //  10
+// // console.log(sum(1, 2, 3, 4, 5)); //  15
+
+// const add = function (a, b, c,f) {
+//    const rezult = a + b + c+f;
+//    console.log(a);
+//    console.log(b);
+//   console.log(c);
+//    console.log('Работает функия add')
+//  return rezult;
+// }
+// const r1 = add(1, 2, 3,54,);
+// console.log(r1);
+
+// add(1,2,3);
+// add(4,5,6);
+// add(7,8,9);
+// add(10, 11, 23);
+
+
+// const dateOfBirth = function (thisYear,yearOfBirth) {
+//   const result = thisYear - yearOfBirth;
+//   return result;
+
+// }
+// const date = dateOfBirth(2021, 2016);
+// console.log('Мне сейчас - ', date, 'лет.');
+
+// const years = function (age) {
+//   if (age >= 18) {
+//     return 'Вы взрослый человек'
+//   }
+//   else{ return'Вы ребенок'}
+// }
+
+// const message = years(date)
+// console.log(message);
+// function greet(name) {
+//   return `Добро пожаловать ${name}.`;
+// }
+
+// /* Вызываем функцию greet 
+//    и выводим результат в консоль */
+// console.log(greet('Манго'));
+// // Добро пожаловать Манго.
+
+// /* Выводим функцию greet 
+//    в консоль не вызывая её */
+// console.log(greet);
+// /*
+// ƒ greet() {
+//      return `Добро пожаловать ${name}.`;
+// }
+// */
