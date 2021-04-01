@@ -77,3 +77,66 @@
 //   total += cart;
 // }
 // console.log('Total = ', total);
+
+// const numbers = [54, 4, 12, 14, 857, 1, 6, 8, 4, 5, 2]
+// let total = 0;
+
+// // for (let i = 0; i < numbers.length; i += 1){
+// //   console.log(numbers[i])
+// //   if (numbers[i] % 2 === 0) {
+// //     total += numbers[i];
+// //     console.log('Данное число четнои и мы считаем его сумму')
+// //   }
+// //   else { console.log('Число не четное!!!') };
+// // }
+// // console.log('Total = ', total);
+
+// const numbers = [54, 5, 122, 14, 857, 1, 6, 8, 4, 5, 2]
+//  let total = 0;
+
+// for (let number of numbers) {
+//   // console.log(number);
+
+//   if (number % 2 === 0) {
+//     console.log('Четное!!!')
+//     total += number
+//       ;  }
+// }
+// console.log('Total = ', total);
+
+// const logins = ['dog', 'boy', 'betjman', 'supermen'];
+// const loginToFind = 'betman';
+// let message = `Пользователь ${loginToFind} не найден`;
+
+// for (let i = 0; i < logins.length; i += 1) {
+//     const login = logins[i];
+
+//     // console.log('пользователь :', logins[i])
+    
+//     if (login === loginToFind) {
+//         console.log('Ура !нашли!!!');
+//         message = (`Пользователь ${loginToFind} найден`);
+//         break;
+//     }
+// }
+// console.log(message);
+// let includens=(logins === loginToFind) ? `Пользователь ${loginToFind} не найден`  : `Пользователь ${loginToFind} найден` ;
+// console.log(includens);
+
+// const logins = ['dog', 'boy', 'betman', 'supermen'];
+// const loginToFind = 'betman';
+// let message = logins.includes(loginToFind) ? `Пользователь ${loginToFind} найден` : `Пользователь ${loginToFind} не найден`;
+// console.log(message);
+
+// const numbers = [54, 1, 78, 41, 2, 65, 8, 4, 26];
+// let smallNumbers = numbers[0];
+
+// for (let number of numbers) {
+//     if (number < smallNumbers) {
+//         smallNumbers = number;
+//     }
+// }
+// console.log(smallNumbers);
+const citys = ['Киев', 'Днепр', 'Кривой Рог', 'Вознесенск'];
+const string = (citys.join(','));
+console.log(string);
