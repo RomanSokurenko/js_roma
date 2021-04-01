@@ -137,6 +137,7 @@
 //     }
 // }
 // console.log(smallNumbers);
-const citys = ['Киев', 'Днепр', 'Кривой Рог', 'Вознесенск'];
-const string = (citys.join(','));
-console.log(string);
+const title = 'Я понял это должна быть строка! ХАХАХА!!!';
+const method = title.toLowerCase().split(' ').join('-');
+
+console.log(method);
