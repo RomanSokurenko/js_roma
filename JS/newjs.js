@@ -37,8 +37,43 @@
 // const type = age >= 18 ? 'adult' : 'child';
 // console.log(type);
 
-const max = 10;
+// const max = 10;
 
-for (let i = 0; i < max; i += 1) {
-  console.log(`${max} % ${i} = `, max % i);
-}
+// for (let i = 0; i < max; i += 1) {
+//   console.log(`${max} % ${i} = `, max % i);
+// }
+
+// const citys  = ['Киев', 'Днепр', 'Кривой Рог', 'Вознесенск'];
+// console.log(city.length);
+// console.log(city);
+
+// for (let i = 0; i <= city.length - 1; i += 1){
+//   city[i] += '-1';
+//   console.log(city[i]);
+// }
+
+// for (let city of citys) {
+//   console.log(city);
+// }
+
+// const carts = [1, 5, 10, 10, 10, 10, 10];
+// let total = 0;
+
+// for (let i = 0; i < carts.length; i+=1){
+  
+//   total += carts[i];
+// }
+// console.log('Total:', total);
+
+// const carts = [1, 1, 1, 1, 10, 10, 10];
+// let total = 0;
+
+// for (let i = 0; i < carts.length; i += 1){
+//   total += carts[i];
+// }
+// console.log('Total =', total);
+
+// for (let cart of carts) {
+//   total += cart;
+// }
+// console.log('Total = ', total);
