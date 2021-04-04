@@ -137,7 +137,14 @@
 //     }
 // }
 // console.log(smallNumbers);
-const title = 'Я понял это должна быть строка! ХАХАХА!!!';
-const method = title.toLowerCase().split(' ').join('-');
+// const add = function (a, b) {
+//     const result = a + b;
 
-console.log(method);
+//     return result;
+    // console.log(a);
+    // console.log(b);
+    // console.log('Выполняется функция add')
+// }
+// const r1 = add(12, 32);
+// console.log(r1);
+// add(5,6);
