@@ -148,3 +148,72 @@
 // const r1 = add(12, 32);
 // console.log(r1);
 // add(5,6);
+// const a = [1, 2, 3];
+// const b = [4, 5, 6];
+// const c = [7, 8, 9];
+
+// const xx = a.concat(b, c);
+// console.log(xx);
+
+// const xxx = [...a, ...b, ...c];
+// console.log(xxx);
+
+// const a = { x: 1, y: 2 };
+// const b = { c: 2, n: 4 };
+// console.log(a, b);
+
+// const c = {
+//     ...a,
+//     ...b,
+// };
+// console.log(c);
+
+// const car = {
+//     engine: 'dizel',
+//     doors: 5,
+//     engineVolume: 1.5,
+//     music: {
+//         columns: 12,
+//         name: 'sony',
+//         model:'itr-f-43-d'
+//     }
+// }
+// console.log(car);
+// const { engine, doors,engineVolume,music:{columns,name,model}} = car;
+
+// console.log(doors,name,engine); 
+
+// const authors = {
+//     kiwi: 3,
+//     ajax: 4,
+//     poly: 1,
+//     den: 9,
+// };
+// const rating = Object.values(authors);
+// console.log(Math.max(...rating));
+
+// const cars = ['bmw', 'opel', 'renaut', 'mersedes','жигули']
+//  const clientCar = 'жигули';
+
+//   const message = 'Это ваш автомобиль';
+// for (let  car of cars) {
+//     // console.log(car);
+     
+//     if (car === clientCar) {
+      
+//         return messege;
+//     }
+
+//     else { return 'это не Ваше авто' };
+// }
+
+const fna = function (message,callback) {
+    console.log(message);
+    console.log(callback);
+    callback();
+};
+const fnb = function () {console.log('это лог который передается через функцию fnb!!!') };
+
+
+fna('это что передаем в функцию',fnb);
+
