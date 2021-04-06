@@ -207,13 +207,55 @@
 //     else { return 'это не Ваше авто' };
 // }
 
+// const fna = function (message,callback) {
+//     console.log(message);
+//     console.log(callback);
+//     callback();
+// };
+// const fnb = function () {console.log('это лог который передается через функцию fnb!!!') };
+
+
+// fna('это что передаем в функцию',fnb);
+
+// function processCall(recipient, onAvailable, onNotAvailable) {
+//   // Имитируем доступеность абонента случайным числом
+//   const isRecipientAvailable = Math.random() > 0.5;
+
+//   if (!isRecipientAvailable) {
+//     onNotAvailable(recipient);
+//     return;
+//   }
+
+//   onAvailable(recipient);
+// }
+
+// function takeCall(name) {
+//   console.log(`Соединяем с ${name}, ожидайте...`);
+//   // Логика принятия звонка
+// }
+
+// function activateAnsweringMachine(name) {
+//   console.log(`Абонент ${name} недоступен, оставьте сообщение.`);
+//   // Логика активации автоответчика
+// }
+
+// function leaveHoloMessage(name) {
+//   console.log(`Абонент ${name} недоступен, записываем голограмму.`);
+//   // Логика записи голограммы
+// }
+
+// processCall('Манго', takeCall, activateAnsweringMachine);
+// processCall('Поли', takeCall, leaveHoloMessage);
+
+
 const fna = function (message,callback) {
     console.log(message);
     console.log(callback);
     callback();
 };
-const fnb = function () {console.log('это лог который передается через функцию fnb!!!') };
+ 
+const fnb = function () {
+    console.log('функция fnb')
+};
 
-
-fna('это что передаем в функцию',fnb);
-
+fna('qweqwe',fnb);
