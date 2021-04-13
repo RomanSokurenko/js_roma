@@ -82,3 +82,22 @@
 // console.log(roman);
 // roman.changePassword  (88888888);
 // console.log(roman.password);
+
+
+// КЛАССЫ---------------
+class Car {
+    constructor() {
+        
+    }
+};
+
+console.log(Car);
+
+const myCar = new Car({
+auto: 'BMW',
+model: 'X5',
+prise: 38000 
+}
+);
+
+console.log(myCar);
