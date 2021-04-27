@@ -1,1 +1,1 @@
-# js_roma
+# goit-js-hw-07
